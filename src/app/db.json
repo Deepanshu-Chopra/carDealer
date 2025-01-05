@@ -1,0 +1,100 @@
+{
+  "dealers": [
+    {
+      "id": "1003",
+      "name": "Ford",
+      "totalBudget": "$1525",
+      "remainingBudget": "$2700",
+      "owner": {
+        "firstName": "John",
+        "lastName": "Doe"
+      },
+      "location": {
+        "latitude": "46545.45",
+        "longitude": "4655.245"
+      },
+      "cars": [
+        {
+          "id": "10001",
+          "name": "Ford Endeavour",
+          "model": "2018",
+          "brand": "Ford",
+          "color": "Silver",
+          "price": "$5452"
+        },
+        {
+          "id": "10002",
+          "name": "Ford EcoSport",
+          "model": "2020",
+          "brand": "Ford",
+          "color": "red",
+          "price": "$542"
+        },
+        {
+          "id": "10003",
+          "name": "Ford Figo",
+          "model": "2018",
+          "brand": "Ford",
+          "color": "white",
+          "price": "$855"
+        },
+        {
+          "id": "10004",
+          "name": "Ford Defender",
+          "model": "Defender",
+          "brand": "Ford",
+          "color": "White",
+          "price": "13671320"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Ferrari",
+      "totalBudget": 2,
+      "remainingBudget": 23423,
+      "location": {
+        "latitude": 23323,
+        "longitude": 234332
+      },
+      "cars": [
+        {
+          "id": "1",
+          "name": "Ferrari",
+          "model": "GT200",
+          "brand": "Ferrarai",
+          "color": "Red",
+          "price": "67167336512367"
+        }
+      ],
+      "owner": {
+        "firstName": "Danny",
+        "lastName": "chopra"
+      }
+    },
+    {
+      "id": "1",
+      "name": "Mahendra",
+      "totalBudget": 334323,
+      "remainingBudget": 2342342,
+      "location": {
+        "latitude": 1243,
+        "longitude": 32423
+      },
+      "cars": [
+        {
+          "id": "1",
+          "name": "Mahendra",
+          "model": "2015",
+          "brand": "Mahendra SUV700",
+          "color": "Black",
+          "price": "126756123"
+        }
+      ],
+      "owner": {
+        "firstName": "john",
+        "lastName": "rebra"
+      }
+    }
+  ]
+}

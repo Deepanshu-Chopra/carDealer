@@ -1,0 +1,146 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.blue-header {
+    background-color: #3f51b5;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+mat-toolbar {
+    justify-content: center;
+}
+
+.mat-form-field {
+    width: 30%;
+    margin-top: 25px;
+}
+
+/* button,
+mat-table {
+    margin-left: 700px;
+} */
+.table-button {
+    margin-left: 700px;
+}
+
+.mat-table {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.centered-table {
+    width: 100%;
+}
+
+.mat-header-cell,
+.mat-cell {
+    text-align: center;
+    padding: 8px;
+    vertical-align: middle;
+}
+.no-cars-found {
+    margin-top: 20px;
+    font-size: 24px;
+    color: black;
+}
+
+.modal-title {
+    margin-left: 158px;
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    /* background-color: #3f51b5; */
+}
+.modal {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+.modal-header {
+    text-align: center;
+    background-color: #3f51b5;
+    color: white;
+}
+.mat-column-name,
+.mat-column-car,
+.mat-column-totalBudget,
+.mat-column-remainingBudget,
+.mat-column-actions {
+    width: 120px;
+}
+
+.mat-column-actions .mat-icon-button {
+    margin: 0 5px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .mat-form-field {
+        width: 100%;
+    }
+
+    .table-button {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .mat-column-name,
+    .mat-column-car,
+    .mat-column-totalBudget,
+    .mat-column-remainingBudget,
+    .mat-column-actions {
+        width: auto;
+    }
+
+    .d-flex {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .modal-title {
+        margin-left: 0;
+        margin-top: 10px;
+        font-size: 24px;
+    }
+    .modal {
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+    .modal-header {
+        text-align: center;
+        background-color: #3f51b5;
+        color: white;
+    }
+}

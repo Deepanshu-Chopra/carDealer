@@ -1,0 +1,27 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.top-header {
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 50vh; /* Adjust height for smaller screens */
+        min-height: 200px; /* Adjust minimum height for smaller screens */
+    }
+
+    .top-header {
+        margin-top: 1px;
+        margin-bottom: 10px;
+    }
+}
