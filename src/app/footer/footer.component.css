@@ -1,0 +1,25 @@
+footer {
+    margin-top: 20px;
+  }
+  
+  footer .btn-floating {
+    margin: 0 5px;
+  }
+  
+  footer .btn-primary {
+    color: #fff;
+  }
+  
+  footer h5 {
+    margin-bottom: 15px;
+  }
+  
+  footer ul {
+    padding-left: 0;
+  }
+  
+  footer ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+  
